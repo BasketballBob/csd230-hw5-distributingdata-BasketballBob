@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_view_book_title"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="top|left"
+        android:text="The Giving Tree"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_view_book_author"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="bottom|right"
+        android:text="Shel Silverstein"
+        android:textSize="16sp" />
+</FrameLayout>
